@@ -1,6 +1,10 @@
 # Npedi-Cracker
 A cracker local server for slide code verification of xxx.com
 
+Environment
+------------
+- Install [Nodejs](https://nodejs.org/) v8.x.x
+
 Start Server
 ------------
 - Open *start.cmd* to start the server, default listen on port **6001**
