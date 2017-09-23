@@ -1,4 +1,4 @@
-# Npedi-Cracker
+# NpediCracker
 A cracker local server for slide code verification of xxx.com
 
 Environment
@@ -7,7 +7,7 @@ Environment
 
 Start Server
 ------------
-- Open *start.cmd* to start the server, default listen on port **6001**
+- Open **start.cmd** to start the server, default listen on port **6001**
 - Message "**Server is listening on http://localhost:6001**" will prompt on server started.
 
 Call Service
