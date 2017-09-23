@@ -1,0 +1,16 @@
+{
+  "name": "npedi",
+  "version": "1.0.0",
+  "description": "Slide verification cracker for http://www.npedi.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./src/crack.test.js"
+  },
+  "author": "Rulee Chen",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "jimp": "^0.2.28"
+  }
+}
