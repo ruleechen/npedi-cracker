@@ -12,7 +12,7 @@ Start Server
 
 Call Service
 ------------
-Send http *POST* request with form data (x-www-form-urlencoded).
+Send http **POST** request with form data (x-www-form-urlencoded).
 - **ground** = (ground base64 image data)
 - **brick**  = (brick base64 image data)
 - **top**    = (offset value of brick in ground)
