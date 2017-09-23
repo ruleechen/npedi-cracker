@@ -2,4 +2,4 @@ ground size: 260px x 90px
 brick size: 50px x 50px
 
 http://www.npedi.com/ediportal-web/ediweb/index.jsp
-Y265164017 / QAZPLO951
+Y265164017-/-QAZPLO951
