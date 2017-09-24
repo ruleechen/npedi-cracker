@@ -12,10 +12,17 @@ Start Server
 
 Call Service
 ------------
-Send http **POST** request with form data (x-www-form-urlencoded).
-- **ground** = (ground base64 image data)
-- **brick**  = (brick base64 image data)
-- **top**    = (offset value of brick in ground)
+Send http **POST** request with json body to **http://localhost:6001/json**
+```json
+{
+  "ground": "...",
+  "brick": "...",
+  "top": 29
+}
+```
+- **ground**: is the ground base64 image data.
+- **brick**: is the brick base64 image data.
+- **top**: is the offset value of brick in ground.
 
 Service Response
 ------------
