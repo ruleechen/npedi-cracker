@@ -2,12 +2,13 @@
 * index
 */
 
+const dotenv = require('dotenv');
 const server = require('./src/server');
+
+dotenv.config({ path: './.env' });
 
 const instance = server.create();
 
-const port = 6001;
+console.log(`Server is listening on http://localhost:${process.env.port}`);
 
-console.log(`Server is listening on http://localhost:${port}`);
-
-instance.listen(port);
+instance.listen(process.env.port);
