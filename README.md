@@ -8,11 +8,11 @@ Environment
 Start Server
 ------------
 - Open **start.cmd** to start the server, default listen on port **6001**
-- Message "**Server is listening on http://localhost:6001**" will prompt on server started.
+- Message "**Server is listening on http&#58;//localhost:6001**" will prompt on server started.
 
 Call Service
 ------------
-Send http **POST** request with json body to **http://localhost:6001/json**
+Send http **POST** request with json body to **http&#58;//localhost:6001/json**
 ```json
 {
   "ground": "...",
