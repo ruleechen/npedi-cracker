@@ -8,7 +8,7 @@
     "test": "node ./src/crack.test.js"
   },
   "author": "Rulee Chen",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body": "^5.1.0",
     "dotenv": "^4.0.0",

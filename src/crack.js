@@ -2,7 +2,7 @@
 * crack
 */
 
-const Jimp = require("jimp");
+const Jimp = require('jimp');
 
 const brickWidth = 50;
 const brickHeight = 50;
